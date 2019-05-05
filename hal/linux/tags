@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GCC_PREFIX	Makefile	/^export GCC_PREFIX :=$/;"	m
+HAL_LINUX_EMUL_ASM_H	emulator_asm.h	2;"	d
+HAL_LINUX_EMUL_H	emulator.h	2;"	d
+HAL_LINUX_EMUL_PRIVATE_H	emulator/private.h	2;"	d
+IRQ_INTERVAL_TIMER0	include.h	1;"	d
+TYPE_H_	type.h	9;"	d
+_CLI	emulator_asm.h	5;"	d
+_IRET	emulator_asm.h	23;"	d
+_POPF	emulator_asm.h	18;"	d
+_PUSHF	emulator_asm.h	14;"	d
+_STI	emulator_asm.h	9;"	d
+_cli	emulator/intr.c	/^void _cli() {$/;"	f
+_deliver_irq	emulator/vector.c	/^void _deliver_irq() {$/;"	f
+_eflags	emulator/intr.c	/^int32u_t _eflags = 1;$/;"	v
+_eflags_saved	emulator/vector.c	/^int32u_t _eflags_saved;$/;"	v
+_gen_irq	emulator/intr.c	/^void _gen_irq(int8u_t irq) {$/;"	f
+_init_timer_interrupt	emulator/timer.c	/^void _init_timer_interrupt() {$/;"	f
+_interval_timer	emulator/timer.c	/^static timer_t* _interval_timer;$/;"	v	file:
+_irq_mask	emulator/intr.c	/^int32u_t _irq_mask = 0xFFFFFFFF;$/;"	v
+_irq_pending	emulator/intr.c	/^int32u_t _irq_pending = 0x0;$/;"	v
+_os_context	context.c	/^typedef struct _os_context {$/;"	s	file:
+_os_context_t	context.c	/^} _os_context_t;$/;"	t	typeref:struct:_os_context	file:
+_os_create_context	context.c	/^addr_t _os_create_context(addr_t stack_base, size_t stack_size, void (*entry)(void *), void *arg) {$/;"	f
+_os_init_hal	init.c	/^void _os_init_hal() {$/;"	f
+_os_init_stack_end	entry.S	/^_os_init_stack_end:$/;"	l
+_os_init_stack_start	entry.S	/^_os_init_stack_start:$/;"	l
+_os_irq_handler	entry.S	/^_os_irq_handler:$/;"	l
+_os_reset_handler	entry.S	/^_os_reset_handler:$/;"	l
+_os_restore_context	context.c	/^void _os_restore_context(addr_t sp) {$/;"	f
+_os_save_context	context.c	/^addr_t _os_save_context() {$/;"	f
+_os_serial_puts	serial.c	/^void _os_serial_puts(const char *s) {$/;"	f
+_sti	emulator/intr.c	/^void _sti() {$/;"	f
+_vector	entry.S	/^_vector:$/;"	l
+addr_t	type.h	/^typedef void			*addr_t;$/;"	t
+bool_t	type.h	/^typedef unsigned char	bool_t;$/;"	t
+eos_ack_irq	interrupt.c	/^void eos_ack_irq(int32u_t irq) {$/;"	f
+eos_disable_interrupt	interrupt_asm.S	/^eos_disable_interrupt:$/;"	l
+eos_disable_irq_line	interrupt.c	/^void eos_disable_irq_line(int32u_t irq) {$/;"	f
+eos_enable_interrupt	interrupt_asm.S	/^eos_enable_interrupt:$/;"	l
+eos_enable_irq_line	interrupt.c	/^void eos_enable_irq_line(int32u_t irq) {$/;"	f
+eos_get_irq	interrupt.c	/^int32s_t eos_get_irq() {$/;"	f
+eos_restore_interrupt	interrupt_asm.S	/^eos_restore_interrupt:$/;"	l
+fp32_t	type.h	/^typedef float			fp32_t;$/;"	t
+fp64_t	type.h	/^typedef double			fp64_t;$/;"	t
+int16s_t	type.h	/^typedef signed short	int16s_t;$/;"	t
+int16u_t	type.h	/^typedef unsigned short	int16u_t;$/;"	t
+int32s_t	type.h	/^typedef signed int		int32s_t;$/;"	t
+int32u_t	type.h	/^typedef unsigned int	int32u_t;$/;"	t
+int8s_t	type.h	/^typedef signed char		int8s_t;$/;"	t
+int8u_t	type.h	/^typedef unsigned char	int8u_t;$/;"	t
+main	emulator/vector.c	/^int main(int argc, char **argv) {$/;"	f
+print_context	context.c	/^void print_context(addr_t context) {$/;"	f
+sighandler	emulator/timer.c	/^static void sighandler(int signum, siginfo_t *info, void *context) {$/;"	f	file:
+size_t	type.h	/^typedef unsigned int	size_t;$/;"	t

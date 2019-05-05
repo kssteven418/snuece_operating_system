@@ -1,0 +1,246 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^export CC := $(GCC_PREFIX)gcc$/;"	m
+EOS_H	core/eos.h	9;"	d
+EOS_INTERNAL_H	core/eos_internal.h	9;"	d
+FIFO	core/eos.h	18;"	d
+GCC_PREFIX	hal/current/Makefile	/^export GCC_PREFIX :=$/;"	m
+GCC_PREFIX	hal/linux/Makefile	/^export GCC_PREFIX :=$/;"	m
+HAL	Makefile	/^export HAL := linux$/;"	m
+HAL_LINUX_EMUL_ASM_H	hal/current/emulator_asm.h	2;"	d
+HAL_LINUX_EMUL_ASM_H	hal/linux/emulator_asm.h	2;"	d
+HAL_LINUX_EMUL_H	hal/current/emulator.h	2;"	d
+HAL_LINUX_EMUL_H	hal/linux/emulator.h	2;"	d
+HAL_LINUX_EMUL_PRIVATE_H	hal/current/emulator/private.h	2;"	d
+HAL_LINUX_EMUL_PRIVATE_H	hal/linux/emulator/private.h	2;"	d
+HPATH	Makefile	/^export HPATH := $(TOP_DIR)$/;"	m
+IRQ_INTERVAL_TIMER0	hal/current/include.h	1;"	d
+IRQ_INTERVAL_TIMER0	hal/linux/include.h	1;"	d
+IRQ_MAX	core/eos_internal.h	60;"	d
+LARGE	core/common.c	83;"	d	file:
+LD	Makefile	/^export LD := $(GCC_PREFIX)ld$/;"	m
+LEFT	core/common.c	81;"	d	file:
+LOCKED	core/eos_internal.h	91;"	d
+LOWEST_PRIORITY	core/eos_internal.h	88;"	d
+MAKERULE	Makefile	/^export MAKERULE := $(TOP_DIR)\/rules.make$/;"	m
+MEDIUM_PRIORITY	core/eos_internal.h	89;"	d
+PLUS	core/common.c	79;"	d	file:
+PRINT	core/eos.h	27;"	d
+PRINT_BUFFER_SIZE	core/common.c	3;"	d	file:
+PRIORITY	core/eos.h	19;"	d
+READY	core/task.c	10;"	d	file:
+READY_TABLE_SIZE	core/eos_internal.h	90;"	d
+RUNNING	core/task.c	11;"	d	file:
+SIGN	core/common.c	78;"	d	file:
+SPACE	core/common.c	80;"	d	file:
+SPECIAL	core/common.c	82;"	d	file:
+TOP_DIR	Makefile	/^export TOP_DIR := $(shell pwd)$/;"	m
+TYPE_H_	hal/current/type.h	9;"	d
+TYPE_H_	hal/linux/type.h	9;"	d
+UNLOCKED	core/eos_internal.h	92;"	d
+WAITING	core/task.c	12;"	d	file:
+ZEROPAD	core/common.c	77;"	d	file:
+_CLI	hal/current/emulator_asm.h	5;"	d
+_CLI	hal/linux/emulator_asm.h	5;"	d
+_IRET	hal/current/emulator_asm.h	23;"	d
+_IRET	hal/linux/emulator_asm.h	23;"	d
+_POPF	hal/current/emulator_asm.h	18;"	d
+_POPF	hal/linux/emulator_asm.h	18;"	d
+_PUSHF	hal/current/emulator_asm.h	14;"	d
+_PUSHF	hal/linux/emulator_asm.h	14;"	d
+_STI	hal/current/emulator_asm.h	9;"	d
+_STI	hal/linux/emulator_asm.h	9;"	d
+_cli	hal/current/emulator/intr.c	/^void _cli() {$/;"	f
+_cli	hal/linux/emulator/intr.c	/^void _cli() {$/;"	f
+_deliver_irq	hal/current/emulator/vector.c	/^void _deliver_irq() {$/;"	f
+_deliver_irq	hal/linux/emulator/vector.c	/^void _deliver_irq() {$/;"	f
+_eflags	hal/current/emulator/intr.c	/^int32u_t _eflags = 1;$/;"	v
+_eflags	hal/linux/emulator/intr.c	/^int32u_t _eflags = 1;$/;"	v
+_eflags_saved	hal/current/emulator/vector.c	/^int32u_t _eflags_saved;$/;"	v
+_eflags_saved	hal/linux/emulator/vector.c	/^int32u_t _eflags_saved;$/;"	v
+_gen_irq	hal/current/emulator/intr.c	/^void _gen_irq(int8u_t irq) {$/;"	f
+_gen_irq	hal/linux/emulator/intr.c	/^void _gen_irq(int8u_t irq) {$/;"	f
+_init_timer_interrupt	hal/current/emulator/timer.c	/^void _init_timer_interrupt() {$/;"	f
+_init_timer_interrupt	hal/linux/emulator/timer.c	/^void _init_timer_interrupt() {$/;"	f
+_interval_timer	hal/current/emulator/timer.c	/^static timer_t* _interval_timer;$/;"	v	file:
+_interval_timer	hal/linux/emulator/timer.c	/^static timer_t* _interval_timer;$/;"	v	file:
+_irq_mask	hal/current/emulator/intr.c	/^int32u_t _irq_mask = 0xFFFFFFFF;$/;"	v
+_irq_mask	hal/linux/emulator/intr.c	/^int32u_t _irq_mask = 0xFFFFFFFF;$/;"	v
+_irq_pending	hal/current/emulator/intr.c	/^int32u_t _irq_pending = 0x0;$/;"	v
+_irq_pending	hal/linux/emulator/intr.c	/^int32u_t _irq_pending = 0x0;$/;"	v
+_os_add_node_priority	core/common.c	/^void _os_add_node_priority(_os_node_t **head, _os_node_t *new_node) {$/;"	f
+_os_add_node_tail	core/common.c	/^void _os_add_node_tail(_os_node_t **head, _os_node_t *new_node) {$/;"	f
+_os_common_interrupt_handler	core/interrupt.c	/^void _os_common_interrupt_handler() {$/;"	f
+_os_context	hal/current/context.c	/^typedef struct _os_context {$/;"	s	file:
+_os_context	hal/linux/context.c	/^typedef struct _os_context {$/;"	s	file:
+_os_context_t	hal/current/context.c	/^} _os_context_t;$/;"	t	typeref:struct:_os_context	file:
+_os_context_t	hal/linux/context.c	/^} _os_context_t;$/;"	t	typeref:struct:_os_context	file:
+_os_create_context	hal/current/context.c	/^addr_t _os_create_context(addr_t stack_base, size_t stack_size, void (*entry)(void *), void *arg) {$/;"	f
+_os_create_context	hal/linux/context.c	/^addr_t _os_create_context(addr_t stack_base, size_t stack_size, void (*entry)(void *), void *arg) {$/;"	f
+_os_current_task	core/task.c	/^static eos_tcb_t *_os_current_task;$/;"	v	file:
+_os_get_highest_priority	core/scheduler.c	/^int32u_t _os_get_highest_priority() {$/;"	f
+_os_icb_t	core/interrupt.c	/^} _os_icb_t;$/;"	t	typeref:struct:icb	file:
+_os_icb_table	core/interrupt.c	/^_os_icb_t _os_icb_table[IRQ_MAX];$/;"	v
+_os_idle_task	core/main.c	/^static void _os_idle_task(void *arg) {$/;"	f	file:
+_os_init_hal	hal/current/init.c	/^void _os_init_hal() {$/;"	f
+_os_init_hal	hal/linux/init.c	/^void _os_init_hal() {$/;"	f
+_os_init_icb_table	core/interrupt.c	/^void _os_init_icb_table() {$/;"	f
+_os_init_scheduler	core/scheduler.c	/^void _os_init_scheduler() {$/;"	f
+_os_init_stack_end	hal/current/entry.S	/^_os_init_stack_end:$/;"	l
+_os_init_stack_end	hal/linux/entry.S	/^_os_init_stack_end:$/;"	l
+_os_init_stack_start	hal/current/entry.S	/^_os_init_stack_start:$/;"	l
+_os_init_stack_start	hal/linux/entry.S	/^_os_init_stack_start:$/;"	l
+_os_init_task	core/task.c	/^void _os_init_task() {$/;"	f
+_os_init_timer	core/timer.c	/^void _os_init_timer() {$/;"	f
+_os_initialization	core/main.c	/^void _os_initialization() {$/;"	f
+_os_irq_handler	hal/current/entry.S	/^_os_irq_handler:$/;"	l
+_os_irq_handler	hal/linux/entry.S	/^_os_irq_handler:$/;"	l
+_os_lock_scheduler	core/scheduler.c	/^int8u_t _os_lock_scheduler() {$/;"	f
+_os_map_table	core/scheduler.c	/^int8u_t const _os_map_table[] = { 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80 };$/;"	v
+_os_multitasking	core/eos_internal.h	/^bool_t _os_multitasking;$/;"	v
+_os_node	core/eos_internal.h	/^typedef struct _os_node {$/;"	s
+_os_node_t	core/eos_internal.h	/^} _os_node_t;$/;"	t	typeref:struct:_os_node
+_os_ready_group	core/eos_internal.h	/^int8u_t _os_ready_group;$/;"	v
+_os_ready_queue	core/task.c	/^static _os_node_t *_os_ready_queue[LOWEST_PRIORITY + 1];$/;"	v	file:
+_os_ready_table	core/eos_internal.h	/^int8u_t _os_ready_table[READY_TABLE_SIZE];$/;"	v
+_os_remove_node	core/common.c	/^int32u_t _os_remove_node(_os_node_t **head, _os_node_t *node) {$/;"	f
+_os_reset_handler	hal/current/entry.S	/^_os_reset_handler:$/;"	l
+_os_reset_handler	hal/linux/entry.S	/^_os_reset_handler:$/;"	l
+_os_restore_context	hal/current/context.c	/^void _os_restore_context(addr_t sp) {$/;"	f
+_os_restore_context	hal/linux/context.c	/^void _os_restore_context(addr_t sp) {$/;"	f
+_os_restore_scheduler	core/scheduler.c	/^void _os_restore_scheduler(int8u_t scheduler_state) {$/;"	f
+_os_save_context	hal/current/context.c	/^addr_t _os_save_context() {$/;"	f
+_os_save_context	hal/linux/context.c	/^addr_t _os_save_context() {$/;"	f
+_os_scheduler_lock	core/eos_internal.h	/^int8u_t _os_scheduler_lock;$/;"	v
+_os_serial_puts	hal/current/serial.c	/^void _os_serial_puts(const char *s) {$/;"	f
+_os_serial_puts	hal/linux/serial.c	/^void _os_serial_puts(const char *s) {$/;"	f
+_os_set_ready	core/scheduler.c	/^void _os_set_ready(int8u_t priority) {$/;"	f
+_os_unmap_table	core/scheduler.c	/^int8u_t const _os_unmap_table[] = {$/;"	v
+_os_unset_ready	core/scheduler.c	/^void _os_unset_ready(int8u_t priority) {$/;"	f
+_os_wait	core/task.c	/^void _os_wait(_os_node_t **wait_queue) {$/;"	f
+_os_wakeup_all	core/task.c	/^void _os_wakeup_all(_os_node_t **wait_queue, int32u_t queue_type) {$/;"	f
+_os_wakeup_single	core/task.c	/^void _os_wakeup_single(_os_node_t **wait_queue, int32u_t queue_type) {$/;"	f
+_os_wakeup_sleeping_task	core/task.c	/^void _os_wakeup_sleeping_task(void *arg) {$/;"	f
+_sti	hal/current/emulator/intr.c	/^void _sti() {$/;"	f
+_sti	hal/linux/emulator/intr.c	/^void _sti() {$/;"	f
+_vector	hal/current/entry.S	/^_vector:$/;"	l
+_vector	hal/linux/entry.S	/^_vector:$/;"	l
+addr_t	hal/current/type.h	/^typedef void			*addr_t;$/;"	t
+addr_t	hal/linux/type.h	/^typedef void			*addr_t;$/;"	t
+alarm_queue	core/eos.h	/^	_os_node_t *alarm_queue;$/;"	m	struct:eos_counter
+alarm_queue_node	core/eos.h	/^	_os_node_t alarm_queue_node;$/;"	m	struct:eos_alarm
+arg	core/eos.h	/^	void *arg;$/;"	m	struct:eos_alarm
+arg	core/interrupt.c	/^	void *arg;		\/* the argument given to the handler when interrupt is occurred. *\/$/;"	m	struct:icb	file:
+bool_t	hal/current/type.h	/^typedef unsigned char	bool_t;$/;"	t
+bool_t	hal/linux/type.h	/^typedef unsigned char	bool_t;$/;"	t
+do_div	core/common.c	85;"	d	file:
+eos_ack_irq	hal/current/interrupt.c	/^void eos_ack_irq(int32u_t irq) {$/;"	f
+eos_ack_irq	hal/linux/interrupt.c	/^void eos_ack_irq(int32u_t irq) {$/;"	f
+eos_acquire_semaphore	core/sync.c	/^int32u_t eos_acquire_semaphore(eos_semaphore_t *sem, int32s_t timeout) {$/;"	f
+eos_alarm	core/eos.h	/^typedef struct eos_alarm {$/;"	s
+eos_alarm_t	core/eos.h	/^} eos_alarm_t;$/;"	t	typeref:struct:eos_alarm
+eos_change_priority	core/task.c	/^void eos_change_priority(eos_tcb_t *task, int32u_t priority) {$/;"	f
+eos_condition	core/eos.h	/^typedef struct eos_condition {$/;"	s
+eos_condition_t	core/eos.h	/^} eos_condition_t;$/;"	t	typeref:struct:eos_condition
+eos_counter	core/eos.h	/^typedef struct eos_counter {$/;"	s
+eos_counter_t	core/eos.h	/^} eos_counter_t;$/;"	t	typeref:struct:eos_counter
+eos_create_task	core/task.c	/^int32u_t eos_create_task(eos_tcb_t *task, addr_t sblock_start, size_t sblock_size, void (*entry)(void *arg), void *arg, int32u_t priority) {$/;"	f
+eos_destroy_task	core/task.c	/^int32u_t eos_destroy_task(eos_tcb_t *task) {$/;"	f
+eos_disable_interrupt	hal/current/interrupt_asm.S	/^eos_disable_interrupt:$/;"	l
+eos_disable_interrupt	hal/linux/interrupt_asm.S	/^eos_disable_interrupt:$/;"	l
+eos_disable_irq_line	hal/current/interrupt.c	/^void eos_disable_irq_line(int32u_t irq) {$/;"	f
+eos_disable_irq_line	hal/linux/interrupt.c	/^void eos_disable_irq_line(int32u_t irq) {$/;"	f
+eos_enable_interrupt	hal/current/interrupt_asm.S	/^eos_enable_interrupt:$/;"	l
+eos_enable_interrupt	hal/linux/interrupt_asm.S	/^eos_enable_interrupt:$/;"	l
+eos_enable_irq_line	hal/current/interrupt.c	/^void eos_enable_irq_line(int32u_t irq) {$/;"	f
+eos_enable_irq_line	hal/linux/interrupt.c	/^void eos_enable_irq_line(int32u_t irq) {$/;"	f
+eos_get_current_task	core/task.c	/^eos_tcb_t *eos_get_current_task() {$/;"	f
+eos_get_interrupt_handler	core/interrupt.c	/^eos_interrupt_handler_t eos_get_interrupt_handler(int8s_t irqnum) {$/;"	f
+eos_get_irq	hal/current/interrupt.c	/^int32s_t eos_get_irq() {$/;"	f
+eos_get_irq	hal/linux/interrupt.c	/^int32s_t eos_get_irq() {$/;"	f
+eos_get_period	core/task.c	/^int32u_t eos_get_period(eos_tcb_t *task) {$/;"	f
+eos_get_priority	core/task.c	/^int32u_t eos_get_priority(eos_tcb_t *task) {$/;"	f
+eos_get_system_timer	core/timer.c	/^eos_counter_t* eos_get_system_timer() {$/;"	f
+eos_init_condition	core/sync.c	/^void eos_init_condition(eos_condition_t *cond, int32u_t queue_type) {$/;"	f
+eos_init_counter	core/timer.c	/^int8u_t eos_init_counter(eos_counter_t *counter, int32u_t init_value) {$/;"	f
+eos_init_mqueue	core/comm.c	/^void eos_init_mqueue(eos_mqueue_t *mq, void *queue_start, int16u_t queue_size, int8u_t msg_size, int8u_t queue_type) {$/;"	f
+eos_init_semaphore	core/sync.c	/^void eos_init_semaphore(eos_semaphore_t *sem, int32u_t initial_count, int8u_t queue_type) {$/;"	f
+eos_interrupt_handler_t	core/eos.h	/^typedef void (*eos_interrupt_handler_t)(int8s_t irq_num, void *arg);$/;"	t
+eos_mqueue	core/eos.h	/^typedef struct eos_mqueue {$/;"	s
+eos_mqueue_t	core/eos.h	/^} eos_mqueue_t;$/;"	t	typeref:struct:eos_mqueue
+eos_notify_condition	core/sync.c	/^void eos_notify_condition(eos_condition_t *cond) {$/;"	f
+eos_printf	core/common.c	/^void eos_printf(const char *fmt, ...) {$/;"	f
+eos_receive_message	core/comm.c	/^int8u_t eos_receive_message(eos_mqueue_t *mq, void *message, int32s_t timeout) {$/;"	f
+eos_release_semaphore	core/sync.c	/^void eos_release_semaphore(eos_semaphore_t *sem) {$/;"	f
+eos_restore_interrupt	hal/current/interrupt_asm.S	/^eos_restore_interrupt:$/;"	l
+eos_restore_interrupt	hal/linux/interrupt_asm.S	/^eos_restore_interrupt:$/;"	l
+eos_resume_task	core/task.c	/^int32u_t eos_resume_task(eos_tcb_t *task) {$/;"	f
+eos_schedule	core/task.c	/^void eos_schedule() {$/;"	f
+eos_semaphore	core/eos.h	/^typedef struct eos_semaphore {$/;"	s
+eos_semaphore_t	core/eos.h	/^} eos_semaphore_t;$/;"	t	typeref:struct:eos_semaphore
+eos_send_message	core/comm.c	/^int8u_t eos_send_message(eos_mqueue_t *mq, void *message, int32s_t timeout) {$/;"	f
+eos_set_alarm	core/timer.c	/^void eos_set_alarm(eos_counter_t* counter, eos_alarm_t* alarm, int32u_t timeout, void (*entry)(void *arg), void *arg) {$/;"	f
+eos_set_interrupt_handler	core/interrupt.c	/^int8s_t eos_set_interrupt_handler(int8s_t irqnum, eos_interrupt_handler_t handler, void *arg) {$/;"	f
+eos_set_period	core/task.c	/^void eos_set_period(eos_tcb_t *task, int32u_t period){$/;"	f
+eos_sleep	core/task.c	/^void eos_sleep(int32u_t tick) {$/;"	f
+eos_suspend_task	core/task.c	/^int32u_t eos_suspend_task(eos_tcb_t *task) {$/;"	f
+eos_tcb_t	core/eos.h	/^} eos_tcb_t;$/;"	t	typeref:struct:tcb
+eos_trigger_counter	core/timer.c	/^void eos_trigger_counter(eos_counter_t* counter) {$/;"	f
+eos_user_main	user/work.c	/^void eos_user_main() {$/;"	f
+eos_wait_condition	core/sync.c	/^void eos_wait_condition(eos_condition_t *cond, eos_semaphore_t *mutex) {$/;"	f
+fp32_t	hal/current/type.h	/^typedef float			fp32_t;$/;"	t
+fp32_t	hal/linux/type.h	/^typedef float			fp32_t;$/;"	t
+fp64_t	hal/current/type.h	/^typedef double			fp64_t;$/;"	t
+fp64_t	hal/linux/type.h	/^typedef double			fp64_t;$/;"	t
+handler	core/eos.h	/^	void (*handler)(void *arg);$/;"	m	struct:eos_alarm
+handler	core/interrupt.c	/^	void (*handler)(int8s_t irqnum, void *arg);	\/* the handler to handle this interrupt. *\/$/;"	m	struct:icb	file:
+icb	core/interrupt.c	/^typedef struct icb {$/;"	s	file:
+idle_stack	core/main.c	/^static int8u_t idle_stack[8096];		\/\/ stack for the idle task$/;"	v	file:
+idle_task	core/main.c	/^static eos_tcb_t idle_task;				\/\/ tcb for the idle task$/;"	v	file:
+int16s_t	hal/current/type.h	/^typedef signed short	int16s_t;$/;"	t
+int16s_t	hal/linux/type.h	/^typedef signed short	int16s_t;$/;"	t
+int16u_t	hal/current/type.h	/^typedef unsigned short	int16u_t;$/;"	t
+int16u_t	hal/linux/type.h	/^typedef unsigned short	int16u_t;$/;"	t
+int32s_t	hal/current/type.h	/^typedef signed int		int32s_t;$/;"	t
+int32s_t	hal/linux/type.h	/^typedef signed int		int32s_t;$/;"	t
+int32u_t	hal/current/type.h	/^typedef unsigned int	int32u_t;$/;"	t
+int32u_t	hal/linux/type.h	/^typedef unsigned int	int32u_t;$/;"	t
+int8s_t	hal/current/type.h	/^typedef signed char		int8s_t;$/;"	t
+int8s_t	hal/linux/type.h	/^typedef signed char		int8s_t;$/;"	t
+int8u_t	hal/current/type.h	/^typedef unsigned char	int8u_t;$/;"	t
+int8u_t	hal/linux/type.h	/^typedef unsigned char	int8u_t;$/;"	t
+irqnum	core/interrupt.c	/^	int8s_t irqnum;		\/* the irq number of this ICB. *\/$/;"	m	struct:icb	file:
+is_digit	core/common.c	75;"	d	file:
+main	hal/current/emulator/vector.c	/^int main(int argc, char **argv) {$/;"	f
+main	hal/linux/emulator/vector.c	/^int main(int argc, char **argv) {$/;"	f
+next	core/eos_internal.h	/^	struct _os_node *next;$/;"	m	struct:_os_node	typeref:struct:_os_node::_os_node
+number	core/common.c	/^static char * number(char * str, long num, int base, int size, int precision$/;"	f	file:
+previous	core/eos_internal.h	/^	struct _os_node *previous;$/;"	m	struct:_os_node	typeref:struct:_os_node::_os_node
+print_alphabet	user/work.c	/^static void print_alphabet(void *arg) {$/;"	f	file:
+print_context	hal/current/context.c	/^void print_context(addr_t context) {$/;"	f
+print_context	hal/linux/context.c	/^void print_context(addr_t context) {$/;"	f
+print_number	user/work.c	/^static void print_number(void *arg) {$/;"	f	file:
+priority	core/eos_internal.h	/^	int32u_t priority;$/;"	m	struct:_os_node
+ptr_data	core/eos_internal.h	/^	void *ptr_data;$/;"	m	struct:_os_node
+queue_type	core/eos.h	/^	int8u_t queue_type;$/;"	m	struct:eos_condition
+sighandler	hal/current/emulator/timer.c	/^static void sighandler(int signum, siginfo_t *info, void *context) {$/;"	f	file:
+sighandler	hal/linux/emulator/timer.c	/^static void sighandler(int signum, siginfo_t *info, void *context) {$/;"	f	file:
+size_t	hal/current/type.h	/^typedef unsigned int	size_t;$/;"	t
+size_t	hal/linux/type.h	/^typedef unsigned int	size_t;$/;"	t
+skip_atoi	core/common.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+stack1	user/work.c	/^static int8u_t stack1[8096];$/;"	v	file:
+stack2	user/work.c	/^static int8u_t stack2[8096];$/;"	v	file:
+strnlen	core/common.c	/^size_t strnlen(const char * s, size_t count)$/;"	f
+system_timer	core/timer.c	/^static eos_counter_t system_timer;$/;"	v	file:
+tcb	core/eos.h	/^typedef struct tcb {$/;"	s
+tcb1	user/work.c	/^static eos_tcb_t tcb1;$/;"	v	file:
+tcb2	user/work.c	/^static eos_tcb_t tcb2;$/;"	v	file:
+tick	core/eos.h	/^	int32u_t tick;$/;"	m	struct:eos_counter
+timeout	core/eos.h	/^	int32u_t timeout;$/;"	m	struct:eos_alarm
+timer_interrupt_handler	core/timer.c	/^static void timer_interrupt_handler(int8s_t irqnum, void *arg) {$/;"	f	file:
+vsprintf	core/common.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+wait_queue	core/eos.h	/^	_os_node_t *wait_queue;$/;"	m	struct:eos_condition
